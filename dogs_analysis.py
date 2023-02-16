@@ -7,7 +7,7 @@ import pandas as pd
 import tkinter as tk
 
 root =tk.Tk()
-root.configure(bg='blue')
+#root.configure(bg=  '00fa2b')
 
 image = Image.open("chuki.png")
 photo = ImageTk.PhotoImage(image)
@@ -33,7 +33,6 @@ root.geometry("{}x{}+{}+{}".format(window_width, window_height, x_cordinate, y_c
 
 def graphAgesDog():
     #doggy_info = pd.read_csv('testDoggyInfo.csv')
-    #x = np.array(doggy_info['Dog Age'])
 
     doggy_info = pd.read_csv('data_13feb_perros.csv')
     x = np.array(doggy_info['edad'])

@@ -72,6 +72,6 @@ i: Insert text before a line.
 
 <br>
 
-***The following image shows a combination of the command AWK, Grep and Sed in execution on the CLI on Debian***
+***The following image shows a combination of the command AWK and Grep in execution on the CLI on Debian***
 
 ![AWK-grep-sed commands](AWK_and_grep_commands_combined.png)
